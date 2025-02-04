@@ -1,0 +1,73 @@
+body{
+   background-color: gray ;
+
+}
+
+nav {
+    display: flex;
+    justify-content:space-around;
+}
+
+
+nav li {
+     list-style-type: none;
+     margin: 10px;
+}
+
+nav li a {
+    background-color: aquamarine;
+    padding: 10px;
+    color: black;
+}
+
+div.burger{
+    width: 50px;
+    height: 50px;
+    background-image: url(open.png);
+    background-size: cover;
+    display: none;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+main div.boite{  
+    width:200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px;
+
+
+}
+@media only screen and (max-width: 480px) {
+    body{
+        background-color: green;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    div.burger{
+       display:block;
+   }
+
+   div.close{
+     background-image: url(close.png);
+   }
+
+   nav.open li{
+    display:flex;
+
+   }
+   nav li{
+    display:none;
+   }
+   main div.boite{
+    width: 100%;
+   }
+
+
+}
+    

@@ -1,0 +1,26 @@
+*{
+    margin: auto;
+}
+
+
+ul{
+   background-color: beige;
+   display: flex;
+   justify-content: space-between;
+}
+
+ul li{
+    background-color: white;
+    margin: 10 px;
+    list-style-type: none;
+}
+
+ul li:hover{
+    background-color: black;
+
+}
+ul li a{
+    color:black;
+    padding: 15px;
+
+}
